@@ -1,0 +1,27 @@
+
+# copy this file to "conf.py" and insert parameters
+
+def get_pipedb_conf():
+    host = ''
+    username = ''
+    password = ''
+    database = ''
+    port = ''
+    return {'host':host,'username':username,'password':password,'database':database,'port':port}
+
+def get_evtdb_conf():
+    host = ''
+    username = ''
+    password = ''
+    database = ''
+    port = ''
+    return {'host':host,'username':username,'password':password,'database':database,'port':port}
+
+def get_path_conf():
+    path_base_fits = ''
+
+    return {'path_base_fits':path_base_fits}
+
+def get_data_repository():
+    datarepositoryid = ''
+    return {'datarepositoryid':datarepositoryid}
