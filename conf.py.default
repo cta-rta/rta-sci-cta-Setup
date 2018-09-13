@@ -22,6 +22,9 @@ def get_path_conf():
 
     return {'path_base_fits':path_base_fits}
 
-def get_data_repository():
-    datarepositoryid = ''
+def get_data_repository(instrumentname):
+    if(instrumentname == ""):
+        datarepositoryid = ''
+    if(instrumentname == ""):
+        datarepositoryid = ''
     return {'datarepositoryid':datarepositoryid}
