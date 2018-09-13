@@ -9,6 +9,14 @@ def get_pipedb_conf():
     port = ''
     return {'host':host,'username':username,'password':password,'database':database,'port':port}
 
+def get_resultsdb_conf():
+    host = ''
+    username = ''
+    password = ''
+    database = ''
+    port = ''
+    return {'host':host,'username':username,'password':password,'database':database,'port':port}
+
 def get_evtdb_conf():
     host = ''
     username = ''
