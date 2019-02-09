@@ -21,8 +21,8 @@
 INSERT INTO timereftype (timereftypeid,name,unit) VALUES (1,'mjd','day');
 INSERT INTO timereftype (timereftypeid,name,unit) VALUES (2,'tt','s');
 
-INSERT INTO skyreftype (skyreftypeid,name,unit) VALUES (1,'galactic','deg');
-INSERT INTO skyreftype (skyreftypeid,name,unit) VALUES (2,'fk5','deg');
+INSERT IGNORE INTO skyreftype (skyreftypeid,name,unit) VALUES (1,'galactic','deg');
+INSERT IGNORE INTO skyreftype (skyreftypeid,name,unit) VALUES (2,'fk5','deg');
 
 INSERT INTO energyreftype (energyreftypeid,name) VALUES (0,'Not Specified');
 INSERT INTO energyreftype (energyreftypeid,name) VALUES (1,'MeV');
