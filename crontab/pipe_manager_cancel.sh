@@ -1,0 +1,1 @@
+pgrep  -u "$(whoami)" -xf "python ./cancel_run.py 1" > /dev/null || (. ./initpipe36.sh ; date >> $PATH_LOG/pipe_manager_cancel.log ; cd $PIPEMANAGER ; python ./cancel_run.py 1 >> $PATH_LOG/pipe_manager_cancel.log 2>&1)
