@@ -51,7 +51,7 @@ UPDATE network SET networkid=0 WHERE name='TEST';
 
 INSERT INTO energybingroup (energybingroupid,shortname,description,energyreftypeid) VALUES (1,'fullband','Full Band',1);
 
-INSERT INTO energybin (energybinid,energybingroupid,emin,emax) VALUES (1,1,0,10000);
+INSERT INTO energybin (energybinid,energybingroupid,emin,emax) VALUES (1,1,0.1,100);
 
 INSERT INTO datalevel (datalevelid,name) VALUES (1,"DL3");
 
