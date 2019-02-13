@@ -38,8 +38,8 @@ INSERT INTO instrument (instrumentid,name,fov) VALUES (6,'AGILE_SA',180);
 INSERT INTO instrument (instrumentid,name,fov) VALUES (7,'LIGO',NULL);
 INSERT INTO instrument (instrumentid,name,fov) VALUES (8,'ICECUBE',NULL);
 INSERT INTO instrument (instrumentid,name,fov) VALUES (9,'AGILE',180);
-INSERT INTO instrument (instrumentid,name,fov,irf,caldb) VALUES (10,'CTA-SOUTH',5,'North_0.5h','prod2');
-INSERT INTO instrument (instrumentid,name,fov,irf,caldb) VALUES (11,'CTA-NORTH',5,'South_0.5h','prod2');
+INSERT INTO instrument (instrumentid,name,fov,irf,caldb) VALUES (10,'CTA-SOUTH',5,'South_0.5h','prod2');
+INSERT INTO instrument (instrumentid,name,fov,irf,caldb) VALUES (11,'CTA-NORTH',5,'North_0.5h','prod2');
 UPDATE instrument SET instrumentid=0 WHERE name='TEST';
 
 
