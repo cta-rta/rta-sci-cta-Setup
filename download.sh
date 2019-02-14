@@ -6,11 +6,11 @@ trap exit ERR
 echo $2
 if [ "$2" != "-t" ] ; then
    echo "USE TAGS"
-  TAG_PIPEMANAGER="v1.0.2"
-  TAG_GAMMAPIPECOMMON="v1.0.0"
-  TAG_CTAGAMMAPIPECOMMON="v1.0.1"
-  TAG_CTOOLSINT="v1.0.0"
-  TAG_SCIGUI="v1.0.0"
+  TAG_PIPEMANAGER="v1.0.3"
+  TAG_GAMMAPIPECOMMON="v1.0.1"
+  TAG_CTAGAMMAPIPECOMMON="v1.0.2"
+  TAG_CTOOLSINT="v1.0.1"
+  TAG_SCIGUI="v1.0.1"
 fi
 
 echo "--------------"
