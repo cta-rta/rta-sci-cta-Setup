@@ -14,7 +14,7 @@ if [ "$2" != "-t" ] ; then
 fi
 
 echo "--------------"
-git clone https://$1@github.com/rta-pipe/pipeline_manager.git
+git clone git@github.com:ASTRO-EDU/pipeline_manager.git
 cd pipeline_manager
 if [ "$2" != "-t" ]; then
 	git checkout $TAG_PIPEMANAGER
@@ -24,7 +24,7 @@ fi
 cd ..
 
 echo "--------------"
-git clone https://$1@github.com/rta-pipe/GammaPipeCommon.git
+git clone git@github.com:ASTRO-EDU/GammaPipeCommon.git
 cd GammaPipeCommon
 if [ "$2" != "-t" ]; then
         git checkout $TAG_GAMMAPIPECOMMON
@@ -34,7 +34,7 @@ fi
 cd ..
 
 echo "--------------"
-git clone https://$1@github.com/cta-rta/CTAGammaPipeCommon.git
+git clone https://github.com/cta-rta/CTAGammaPipeCommon.git
 cd CTAGammaPipeCommon
 if [ "$2" != "-t" ]; then
         git checkout $TAG_CTAGAMMAPIPECOMMON
@@ -44,7 +44,7 @@ fi
 cd ..
 
 echo "--------------"
-git clone https://$1@github.com/cta-rta/ctoolsint.git
+git clone https://github.com/cta-rta/ctoolsint.git
 cd ctoolsint
 if [ "$2" != "-t" ]; then
         git checkout $TAG_CTOOLSINT
@@ -55,7 +55,7 @@ cd ..
 
 
 echo "--------------"
-git clone https://$1@github.com/cta-rta/ScientificGUI.git
+git clone git@github.com:ASTRO-EDU/ScientificGUI.git
 cd ScientificGUI
 if [ "$2" != "-t" ]; then
         git checkout $TAG_SCIGUI
